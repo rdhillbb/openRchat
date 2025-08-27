@@ -50,7 +50,7 @@ export class OpenRouterClient {
         model,
         messages,
         temperature: 0.7,
-        max_tokens: 4000,
+        max_tokens: 20000,
       });
 
       const choice = response.data.choices[0];
